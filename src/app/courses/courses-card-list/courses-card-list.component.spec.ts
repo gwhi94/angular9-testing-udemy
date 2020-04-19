@@ -41,8 +41,6 @@ describe('CoursesCardListComponent', () => {
 
       expect(component).toBeTruthy();
 
-
-
   });
 
 
@@ -68,7 +66,7 @@ describe('CoursesCardListComponent', () => {
 
   it("should display the first course", () => {
 
-     //passes some courses to the component using the helper function  
+    //passes some courses to the component using the helper function  
     component.courses = setupCourses();
 
     //need to trigger this in order to update the DOM elements
@@ -88,7 +86,6 @@ describe('CoursesCardListComponent', () => {
 
     expect(image.nativeElement.src).toBe(course.iconUrl);
  
-
   });
 
 
